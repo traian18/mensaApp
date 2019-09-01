@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".AboutMensaRomania">
+    tools:context=".WhatIsIqActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
@@ -42,6 +42,6 @@
         app:layout_anchorGravity="bottom|end"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
-    <include layout="@layout/content_about_mensa_romania" />
+    <include layout="@layout/content_what_is_iq" />
 
 </android.support.design.widget.CoordinatorLayout>

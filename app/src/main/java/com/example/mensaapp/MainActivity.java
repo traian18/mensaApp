@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         mWhatIsIq.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getApplicationContext(), WhatIsIqActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -54,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
         mAboutIqTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getApplicationContext(), AboutIqTest.class);
+                startActivity(intent);
             }
         });
 

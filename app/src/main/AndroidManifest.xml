@@ -10,10 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".AboutIqTest"
+            android:label="@string/title_activity_about_iq_test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AboutMensaRomania"
+            android:label="@string/title_activity_about_mensa_romania"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WhatIsIqActivity"
+            android:label="@string/title_activity_what_is_iq"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".AboutMensaInternational"
             android:label="@string/title_activity_about_mensa_international"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".AboutMensaRomania" />
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".TestActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -2,12 +2,16 @@
     <string name="app_name">MensaApp</string>
     <string name="about_mensa">About Mensa</string>
     <string name="logo">Logo</string>
+
+    <!--    Activities names-->
     <string name="about_mensa_romania">About Mensa Romania</string>
     <string name="what_does_iq_mean">What Does IQ Mean</string>
     <string name="about_iq_test">About IQ Test</string>
     <string name="about_mensa_internationl">About Mensa Internationl</string>
     <string name="take_free_sample_iq_test">Take Free Sample IQ Test</string>
     <string name="title_activity_about_mensa_international">AboutMensaInternational</string>
+
+    <!--    About Mensa International Name-->
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -98,4 +102,7 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_what_is_iq">WhatIsIqActivity</string>
+    <string name="title_activity_about_mensa_romania">AboutMensaRomania</string>
+    <string name="title_activity_about_iq_test">AboutIqTest</string>
 </resources>
