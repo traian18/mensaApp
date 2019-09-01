@@ -6,7 +6,7 @@ public abstract class Test {
 
     private List<Question> testAnswers;
     private String testDescription;
-    private int mNumberOfSeconds;
+    private int mNumberOfMiliseconds;
 
     public List<Question> getTestAnswers() {
         return testAnswers;
@@ -22,6 +22,14 @@ public abstract class Test {
 
     public void setTestDescription(String testDescription) {
         this.testDescription = testDescription;
+    }
+
+    public int getmNumberOfMiliseconds() {
+        return mNumberOfMiliseconds;
+    }
+
+    public void setmNumberOfMiliseconds(int mNumberOfMiliseconds) {
+        this.mNumberOfMiliseconds = mNumberOfMiliseconds;
     }
 
     /**

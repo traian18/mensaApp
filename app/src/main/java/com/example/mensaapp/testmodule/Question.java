@@ -7,7 +7,7 @@ import java.util.List;
 public abstract class Question {
 
     private String question;
-    private List<Image> questionImages;
+    private List<String> questionImages;
     private List<Image> answerImages;
     private String correctAnswer;
 
@@ -20,11 +20,11 @@ public abstract class Question {
         this.question = question;
     }
 
-    public List<Image> getQuestionImages() {
+    public List<String> getQuestionImages() {
         return questionImages;
     }
 
-    public void setQuestionImages(List<Image> questionImages) {
+    public void setQuestionImages(List<String> questionImages) {
         this.questionImages = questionImages;
     }
 
