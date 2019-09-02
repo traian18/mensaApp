@@ -1,39 +1,62 @@
 package com.example.mensaapp;
 
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
+import android.widget.Toast;
 
-import com.example.mensaapp.testmodule.Test;
-
-
-//TODO: 1 - Create Test Timer (In Progress)
-//TODO: 2 - Create question with answers module; (Done)
-//TODO: 3 - Create Test Runner module (In Progress)
-
-public class TestActivity extends AppCompatActivity {
-
-    private Handler mHandler;
-    private Runnable mRunnable;
-    private int mTimerButtonValue;
-    private Test currentTest;
+import com.example.mensaapp.fragments.TestInstructionFragment;
 
 
+// Test Flow 1 --> Instructions Screen --> Example question 1 --> Example question 2 --> questions... --> result
+
+public class TestActivity extends AppCompatActivity implements TestInstructionFragment.OnFragmentInteractionListener {
+
+    private FragmentTransaction ft;
+
+    private TextView mCounterTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
+
+        mCounterTextView = findViewById(R.id.counterTextView);
+        mCounterTextView.setText("hello");
+
+        startTimer();
+
+        ft = getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.fragmentContainer, new TestInstructionFragment());
+        ft.commit();
+
+
+
     }
 
-    public void countDownTimerStart(){
-        mHandler = new Handler();
-        mRunnable = new Runnable() {
-            @Override
-            public void run() {
-                mHandler.postDelayed(this, 1000);
+    private void startTimer(){
+        new CountDownTimer(30000, 1000){
+            Integer seconds = 30;
 
+            @Override
+            public void onTick(long l) {
+                mCounterTextView.setText(seconds.toString());
+                seconds = seconds - 1;
+                Toast.makeText(getApplicationContext(), seconds.toString(), Toast.LENGTH_SHORT).show();
             }
-        };
+
+            @Override
+            public void onFinish() {
+                mCounterTextView.setText("to late");
+            }
+        }.start();
+    }
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
     }
 }

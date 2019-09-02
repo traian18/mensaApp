@@ -63,7 +63,8 @@ public class MainActivity extends AppCompatActivity {
         mTakeFreeTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getApplicationContext(), TestActivity.class);
+                startActivity(intent);
             }
         });
 
