@@ -1,6 +1,5 @@
 package com.example.mensaapp;
 
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.v4.app.FragmentTransaction;
@@ -11,9 +10,7 @@ import android.widget.Toast;
 import com.example.mensaapp.fragments.TestInstructionFragment;
 
 
-// Test Flow 1 --> Instructions Screen --> Example question 1 --> Example question 2 --> questions... --> result
-
-public class TestActivity extends AppCompatActivity implements TestInstructionFragment.OnFragmentInteractionListener {
+public class TestActivity extends AppCompatActivity implements TestInstructionFragment.TestFragmentStartTest {
 
     private FragmentTransaction ft;
 
@@ -34,18 +31,16 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
         ft.commit();
 
 
-
     }
 
-    private void startTimer(){
-        new CountDownTimer(30000, 1000){
+    private void startTimer() {
+        new CountDownTimer(30000, 1000) {
             Integer seconds = 30;
 
             @Override
             public void onTick(long l) {
                 mCounterTextView.setText(seconds.toString());
                 seconds = seconds - 1;
-                Toast.makeText(getApplicationContext(), seconds.toString(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -55,8 +50,9 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
         }.start();
     }
 
-    @Override
-    public void onFragmentInteraction(Uri uri) {
 
+    @Override
+    public void startTest() {
+        Toast.makeText(getApplicationContext(), "Starting test", Toast.LENGTH_SHORT).show();
     }
 }

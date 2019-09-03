@@ -101,6 +101,16 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+
+    <string name="test_instructions">
+        "    This test is designed to give you an idea of how you would handle a "real" Mensa test.\n\n"
+        "    The test consists of 24 exercises that must be solved in 10 minutes. Each exercise is a 3 x 3 square with images where the last image is not available.Your task is to determine which image is missing.\n\n"
+        "   When you want to start the test, press the "Begin the test!" Button. You have 10 minutes available! After these 10 minutes, the test will stop automatically and the results will be calculated with the answers completed by then! After you tick an answer, the test will automatically display the next question.\n\n"
+        "   Note: The test is performed by Etienne Forsström (Mensa Sweden) and used with his permission"
+
+
+
+    </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_what_is_iq">WhatIsIqActivity</string>
     <string name="title_activity_about_mensa_romania">AboutMensaRomania</string>
