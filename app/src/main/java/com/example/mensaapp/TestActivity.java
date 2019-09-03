@@ -7,13 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.mensaapp.fragments.SampleQuestion1Fragment;
 import com.example.mensaapp.fragments.TestInstructionFragment;
 
 
-public class TestActivity extends AppCompatActivity implements TestInstructionFragment.TestFragmentStartTest {
+public class TestActivity extends AppCompatActivity implements TestInstructionFragment.InstructionCallbackInterface {
 
     private FragmentTransaction ft;
-
     private TextView mCounterTextView;
 
     @Override
@@ -36,7 +36,6 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
     private void startTimer() {
         new CountDownTimer(30000, 1000) {
             Integer seconds = 30;
-
             @Override
             public void onTick(long l) {
                 mCounterTextView.setText(seconds.toString());
@@ -53,6 +52,8 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
     @Override
     public void startTest() {
-        Toast.makeText(getApplicationContext(), "Starting test", Toast.LENGTH_SHORT).show();
+        ft = getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.fragmentContainer, new SampleQuestion1Fragment());
+        ft.commit();
     }
 }
