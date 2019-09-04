@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.QuestionFragment">
+
+
+    <Button
+        android:id="@+id/SelectAButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="A"
+        app:layout_constraintEnd_toStartOf="@+id/SelectBButton"
+        app:layout_constraintTop_toTopOf="@+id/SelectBButton" />
+
+    <Button
+        android:id="@+id/SelectBButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionImageView" />
+
+    <Button
+        android:id="@+id/SelectCButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="C"
+        app:layout_constraintStart_toEndOf="@+id/SelectBButton"
+        app:layout_constraintTop_toTopOf="@+id/SelectBButton" />
+
+    <Button
+        android:id="@+id/SelectDButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="D"
+        app:layout_constraintEnd_toStartOf="@+id/SelectBButton"
+        app:layout_constraintTop_toBottomOf="@+id/SelectAButton" />
+
+    <Button
+        android:id="@+id/SelectEButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="E"
+        app:layout_constraintStart_toEndOf="@+id/SelectBButton"
+        app:layout_constraintTop_toBottomOf="@+id/SelectCButton" />
+
+    <ImageView
+        android:id="@+id/questionImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="64dp"
+        android:padding="24dp"
+        android:src="@drawable/item1"
+        app:layout_constraintTop_toBottomOf="@+id/questionNumberTextView"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/21"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/questionNumberTextView"
+        app:layout_constraintStart_toEndOf="@+id/questionNumberTextView"
+        app:layout_constraintTop_toTopOf="@+id/questionNumberTextView" />
+
+    <TextView
+        android:id="@+id/questionNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -35,7 +35,7 @@ public class TestInstructionFragment extends Fragment {
         mStartTestButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ((TestActivity) getActivity()).startTest();
+                ((TestActivity) getActivity()).startSampleQuestion();
             }
         });
 
@@ -43,6 +43,6 @@ public class TestInstructionFragment extends Fragment {
     }
 
     public interface InstructionCallbackInterface {
-        public void startTest();
+        public void startSampleQuestion();
     }
 }

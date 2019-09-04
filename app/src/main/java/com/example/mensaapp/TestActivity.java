@@ -7,11 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.mensaapp.fragments.SampleQuestion1Fragment;
+import com.example.mensaapp.fragments.QuestionFragment;
+import com.example.mensaapp.fragments.SampleQuestionFragment;
 import com.example.mensaapp.fragments.TestInstructionFragment;
 
 
-public class TestActivity extends AppCompatActivity implements TestInstructionFragment.InstructionCallbackInterface {
+public class TestActivity extends AppCompatActivity implements TestInstructionFragment.InstructionCallbackInterface,
+        SampleQuestionFragment.SampleQuestionCallbackInterface {
 
     private FragmentTransaction ft;
     private TextView mCounterTextView;
@@ -34,8 +36,9 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
     }
 
     private void startTimer() {
-        new CountDownTimer(30000, 1000) {
+        new CountDownTimer(600_000, 1000) {
             Integer seconds = 30;
+
             @Override
             public void onTick(long l) {
                 mCounterTextView.setText(seconds.toString());
@@ -51,9 +54,17 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
 
     @Override
-    public void startTest() {
+    public void startSampleQuestion() {
         ft = getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.fragmentContainer, new SampleQuestion1Fragment());
+        ft.replace(R.id.fragmentContainer, new SampleQuestionFragment());
+        ft.commit();
+    }
+
+    @Override
+    public void startTest() {
+        Toast.makeText(getApplicationContext(), "StartTestPressed", Toast.LENGTH_SHORT).show();
+        ft = getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.fragmentContainer, new QuestionFragment());
         ft.commit();
     }
 }

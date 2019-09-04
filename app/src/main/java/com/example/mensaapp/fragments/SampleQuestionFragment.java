@@ -1,6 +1,5 @@
 package com.example.mensaapp.fragments;
 
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,13 +9,15 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.mensaapp.R;
+import com.example.mensaapp.TestActivity;
 
-public class SampleQuestion1Fragment extends Fragment {
+public class SampleQuestionFragment extends Fragment {
 
     private Button mContinueButton;
     private ImageView mQuestionImage;
+    private int counter = 0;
 
-    public SampleQuestion1Fragment() {
+    public SampleQuestionFragment() {
         // Required empty public constructor
     }
 
@@ -37,13 +38,26 @@ public class SampleQuestion1Fragment extends Fragment {
         mContinueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mQuestionImage.setImageResource(R.drawable.example2);
+                if (getCounter() == 0) {
+                    mQuestionImage.setImageResource(R.drawable.example2);
+                    incrementCounter();
+                } else {
+                    ((TestActivity) getActivity()).startTest();
+                }
             }
         });
         return view;
     }
 
-    public interface SampleQuestion1CallbackInterface {
-        void onFragmentInteraction(Uri uri);
+    public interface SampleQuestionCallbackInterface {
+        public void startTest();
+    }
+
+    private void incrementCounter(){
+        counter += 1;
+    }
+
+    private int getCounter(){
+        return counter;
     }
 }
