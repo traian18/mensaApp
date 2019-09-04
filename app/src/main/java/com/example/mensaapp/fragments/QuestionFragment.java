@@ -17,8 +17,8 @@ public class QuestionFragment extends Fragment {
 
     private Map<Integer, String> mQuestionList = new HashMap<>();
     private TextView mQuestionNumber;
-
     private int questionCounter = 0;
+    private String currentCorrectAnswer;
 
     private Button mSelectionAButton;
     private Button mSelectionBButton;
@@ -40,6 +40,8 @@ public class QuestionFragment extends Fragment {
 
     private void populateQuestionsList() {
         mQuestionList.put(R.drawable.item1, "e");
+        mQuestionList.put(R.drawable.item2, "c");
+        mQuestionList.put(R.drawable.item3, "c");
     }
 
     @Override
@@ -93,11 +95,13 @@ public class QuestionFragment extends Fragment {
         return view;
     }
 
-    public interface QuestionCallBackInterface {
-        public void updateScore();
+
+    public void switchToNextQuestion(){
+
     }
 
-    private void checkAnswer(String optionSelected){
-
+    public interface QuestionCallBackInterface {
+        public void updateScore();
+        public void incrementCorrectScore();
     }
 }

@@ -13,7 +13,7 @@ import com.example.mensaapp.fragments.TestInstructionFragment;
 
 
 public class TestActivity extends AppCompatActivity implements TestInstructionFragment.InstructionCallbackInterface,
-        SampleQuestionFragment.SampleQuestionCallbackInterface {
+        SampleQuestionFragment.SampleQuestionCallbackInterface, QuestionFragment.QuestionCallBackInterface {
 
     private FragmentTransaction ft;
     private TextView mCounterTextView;
@@ -37,7 +37,7 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
     private void startTimer() {
         new CountDownTimer(600_000, 1000) {
-            Integer seconds = 30;
+            Integer seconds = 59;
 
             @Override
             public void onTick(long l) {
@@ -62,9 +62,19 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
     @Override
     public void startTest() {
-        Toast.makeText(getApplicationContext(), "StartTestPressed", Toast.LENGTH_SHORT).show();
         ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.fragmentContainer, new QuestionFragment());
         ft.commit();
+    }
+
+
+    @Override
+    public void updateScore() {
+
+    }
+
+    @Override
+    public void incrementCorrectScore() {
+
     }
 }
