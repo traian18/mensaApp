@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-
-
-
+<!--    First Test Image Questions-->
     <integer-array name="question_list">
         <item>@drawable/item1</item>
         <item>@drawable/item2</item>
@@ -12,17 +10,75 @@
         <item>@drawable/item5</item>
         <item>@drawable/item6</item>
         <item>@drawable/item7</item>
+        <item>@drawable/item8</item>
+        <item>@drawable/item9</item>
+        <item>@drawable/item10</item>
+        <item>@drawable/item11</item>
+        <item>@drawable/item12</item>
+        <item>@drawable/item13</item>
+        <item>@drawable/item14</item>
+        <item>@drawable/item15</item>
+        <item>@drawable/item16</item>
+        <item>@drawable/item17</item>
+        <item>@drawable/item18</item>
+        <item>@drawable/item19</item>
+        <item>@drawable/item20</item>
+        <item>@drawable/item21</item>
+        <item>@drawable/item22</item>
+        <item>@drawable/item23</item>
+        <item>@drawable/item24</item>
     </integer-array>
 
-
+<!--    First Test Question Answers-->
     <string-array name="answer_list">
+<!--        1           -->
+        <item>e</item>
+<!--        2           -->
+        <item>c</item>
+<!--        3           -->
+        <item>c</item>
+<!--        4           -->
+        <item>d</item>
+<!--        5           -->
+        <item>e</item>
+<!--        6           -->
+        <item>b</item>
+<!--        7           -->
+        <item>c</item>
+<!--        8           -->
+        <item>d</item>
+<!--        9           -->
+        <item>b</item>
+<!--        10          -->
+        <item>b</item>
+<!--        11          -->
+        <item>b</item>
+<!--        12          -->
         <item>a</item>
+<!--        13          -->
+        <item>d</item>
+<!--        14          -->
         <item>a</item>
+<!--        15          -->
         <item>a</item>
+<!--        16          -->
         <item>a</item>
+<!--        17          -->
         <item>a</item>
+<!--        18          -->
         <item>a</item>
-        <item>a</item>
+<!--        19          -->
+        <item>d</item>
+<!--        20          -->
+        <item>e</item>
+<!--        21          -->
+        <item>b</item>
+<!--        22          -->
+        <item>e</item>
+<!--        23          -->
+        <item>d</item>
+<!--        24          -->
+        <item>c</item>
     </string-array>
 
 </resources>

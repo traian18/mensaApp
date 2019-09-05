@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     tools:context=".fragments.QuestionFragment">
 
 
@@ -64,22 +65,14 @@
         tools:layout_editor_absoluteX="16dp" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="/21"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/questionNumberTextView"
-        app:layout_constraintStart_toEndOf="@+id/questionNumberTextView"
-        app:layout_constraintTop_toTopOf="@+id/questionNumberTextView" />
-
-    <TextView
         android:id="@+id/questionNumberTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="1"
-        android:textSize="18sp"
+        android:text="@string/initial_question_number"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

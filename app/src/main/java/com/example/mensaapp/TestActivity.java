@@ -5,7 +5,6 @@ import android.os.CountDownTimer;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.mensaapp.fragments.QuestionFragment;
 import com.example.mensaapp.fragments.SampleQuestionFragment;
@@ -17,6 +16,7 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
     private FragmentTransaction ft;
     private TextView mCounterTextView;
+    private Integer numberOfCorrectAnswers = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,9 +24,6 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
         setContentView(R.layout.activity_test);
 
         mCounterTextView = findViewById(R.id.counterTextView);
-        mCounterTextView.setText("hello");
-
-        startTimer();
 
         ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.fragmentContainer, new TestInstructionFragment());
@@ -37,11 +34,11 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
     private void startTimer() {
         new CountDownTimer(600_000, 1000) {
-            Integer seconds = 59;
+            Integer seconds = 600;
 
             @Override
             public void onTick(long l) {
-                mCounterTextView.setText(seconds.toString());
+                timeFormater(seconds);
                 seconds = seconds - 1;
             }
 
@@ -50,6 +47,18 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
                 mCounterTextView.setText("to late");
             }
         }.start();
+    }
+
+    private void timeFormater(Integer seconds) {
+        Integer receivedSeconds = seconds;
+        Integer minutes = seconds / 60;
+        receivedSeconds = seconds % 60;
+        String stringSeconds = receivedSeconds.toString();
+        String stringMinutes = minutes.toString();
+        if (receivedSeconds <10){
+            stringSeconds = "0" + receivedSeconds;
+        }
+        mCounterTextView.setText("TIME REMAINING: " + stringMinutes + ":" + stringSeconds);
     }
 
 
@@ -62,6 +71,7 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
     @Override
     public void startTest() {
+        startTimer();
         ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.fragmentContainer, new QuestionFragment());
         ft.commit();
@@ -69,12 +79,12 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
 
     @Override
-    public void updateScore() {
-
+    public void incrementCorrectScore() {
+        numberOfCorrectAnswers += 1;
     }
 
     @Override
-    public void incrementCorrectScore() {
+    public void finishTest() {
 
     }
 }

@@ -15,17 +15,13 @@ import android.widget.Toast;
 import com.example.mensaapp.R;
 import com.example.mensaapp.TestActivity;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 public class QuestionFragment extends Fragment {
 
     private TypedArray mQuestionList;
     private String[] mAnswerList;
     private TextView mQuestionNumber;
     private int questionCounter;
+    private int numberOfQuestions;
 
     private ImageView questionImageView;
 
@@ -57,8 +53,6 @@ public class QuestionFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_question, container, false);
         mQuestionNumber = view.findViewById(R.id.questionNumberTextView);
         questionImageView = view.findViewById(R.id.questionImageView);
-
-//        Toast.makeText(getContext(), String.valueOf(R.drawable.item2), Toast.LENGTH_SHORT).show();
 
         mSelectionAButton = view.findViewById(R.id.SelectAButton);
         mSelectionBButton = view.findViewById(R.id.SelectBButton);
@@ -106,6 +100,8 @@ public class QuestionFragment extends Fragment {
     }
 
     private void checkAnswer(String answer) {
+        Toast.makeText(getContext(), "Answer: " + answer + " Correct Answer = " + mAnswerList[questionCounter], Toast.LENGTH_SHORT).show();
+
         if (answer.equals(mAnswerList[questionCounter])) {
             ((TestActivity) getActivity()).incrementCorrectScore();
         }
@@ -113,16 +109,24 @@ public class QuestionFragment extends Fragment {
     }
 
     public void switchToNextQuestion() {
+        if (questionCounter == 24)
+            ((TestActivity)getActivity()).finishTest();
+
         questionCounter += 1;
         Drawable image = mQuestionList.getDrawable(questionCounter);
         questionImageView.setImageDrawable(image);
         int questionNumber = questionCounter + 1;
-        mQuestionNumber.setText(String.valueOf(questionNumber));
+        questionNumberFormater();
+    }
+
+    private void questionNumberFormater(){
+        numberOfQuestions = mQuestionList.length();
+        String currentQuestionFromatedNumber = String.valueOf(questionCounter+1) + "/" + String.valueOf(numberOfQuestions);
+        mQuestionNumber.setText(currentQuestionFromatedNumber);
     }
 
     public interface QuestionCallBackInterface {
-        public void updateScore();
-
         public void incrementCorrectScore();
+        public void finishTest();
     }
 }
