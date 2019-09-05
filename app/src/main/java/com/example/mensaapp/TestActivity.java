@@ -7,12 +7,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.example.mensaapp.fragments.QuestionFragment;
+import com.example.mensaapp.fragments.ResultFragment;
 import com.example.mensaapp.fragments.SampleQuestionFragment;
 import com.example.mensaapp.fragments.TestInstructionFragment;
 
 
 public class TestActivity extends AppCompatActivity implements TestInstructionFragment.InstructionCallbackInterface,
-        SampleQuestionFragment.SampleQuestionCallbackInterface, QuestionFragment.QuestionCallBackInterface {
+        SampleQuestionFragment.SampleQuestionCallbackInterface, QuestionFragment.QuestionCallBackInterface,
+        ResultFragment.ResultFragmentCallbackInterface {
 
     private FragmentTransaction ft;
     private TextView mCounterTextView;
@@ -55,7 +57,7 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
         receivedSeconds = seconds % 60;
         String stringSeconds = receivedSeconds.toString();
         String stringMinutes = minutes.toString();
-        if (receivedSeconds <10){
+        if (receivedSeconds < 10) {
             stringSeconds = "0" + receivedSeconds;
         }
         mCounterTextView.setText("TIME REMAINING: " + stringMinutes + ":" + stringSeconds);
@@ -85,6 +87,13 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
     @Override
     public void finishTest() {
+        ft = getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.fragmentContainer, new ResultFragment());
+        ft.commit();
+    }
+
+    @Override
+    public void getNumberOfCorrectQuestions() {
 
     }
 }

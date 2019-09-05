@@ -109,14 +109,15 @@ public class QuestionFragment extends Fragment {
     }
 
     public void switchToNextQuestion() {
-        if (questionCounter == 24)
-            ((TestActivity)getActivity()).finishTest();
-
-        questionCounter += 1;
-        Drawable image = mQuestionList.getDrawable(questionCounter);
-        questionImageView.setImageDrawable(image);
-        int questionNumber = questionCounter + 1;
-        questionNumberFormater();
+        if (questionCounter == 23) {
+            ((TestActivity) getActivity()).finishTest();
+        } else {
+            questionCounter += 1;
+            Drawable image = mQuestionList.getDrawable(questionCounter);
+            questionImageView.setImageDrawable(image);
+            int questionNumber = questionCounter + 1;
+            questionNumberFormater();
+        }
     }
 
     private void questionNumberFormater(){
