@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <integer-array name="question_list">
+        <item>@drawable/item1</item>
+        <item>@drawable/item2</item>
+        <item>@drawable/item3</item>
+        <item>@drawable/item4</item>
+        <item>@drawable/item5</item>
+        <item>@drawable/item6</item>
+        <item>@drawable/item7</item>
+    </integer-array>
+
+
+    <string-array name="answer_list">
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+        <item>a</item>
+    </string-array>
+
+</resources>
