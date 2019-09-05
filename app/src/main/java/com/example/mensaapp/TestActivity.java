@@ -13,8 +13,7 @@ import com.example.mensaapp.fragments.TestInstructionFragment;
 
 
 public class TestActivity extends AppCompatActivity implements TestInstructionFragment.InstructionCallbackInterface,
-        SampleQuestionFragment.SampleQuestionCallbackInterface, QuestionFragment.QuestionCallBackInterface,
-        ResultFragment.ResultFragmentCallbackInterface {
+        SampleQuestionFragment.SampleQuestionCallbackInterface, QuestionFragment.QuestionCallBackInterface {
 
     private FragmentTransaction ft;
     private TextView mCounterTextView;
@@ -87,13 +86,12 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
     @Override
     public void finishTest() {
+        ResultFragment resultFragment = new ResultFragment();
+        Bundle arguments = new Bundle();
+        arguments.putString("ANSWERS", numberOfCorrectAnswers.toString());
+        resultFragment.setArguments(arguments);
         ft = getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.fragmentContainer, new ResultFragment());
+        ft.replace(R.id.fragmentContainer, resultFragment);
         ft.commit();
-    }
-
-    @Override
-    public void getNumberOfCorrectQuestions() {
-
     }
 }

@@ -115,7 +115,6 @@ public class QuestionFragment extends Fragment {
             questionCounter += 1;
             Drawable image = mQuestionList.getDrawable(questionCounter);
             questionImageView.setImageDrawable(image);
-            int questionNumber = questionCounter + 1;
             questionNumberFormater();
         }
     }
