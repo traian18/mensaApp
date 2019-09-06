@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.mensaapp.fragments.QuestionFragment;
@@ -18,6 +20,7 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
     private FragmentTransaction ft;
     private TextView mCounterTextView;
     private Integer numberOfCorrectAnswers = 0;
+    private Button mHomeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +28,14 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
         setContentView(R.layout.activity_test);
 
         mCounterTextView = findViewById(R.id.counterTextView);
+        mHomeButton = findViewById(R.id.HomeButton);
+
+        mHomeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
         ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.fragmentContainer, new TestInstructionFragment());

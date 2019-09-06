@@ -34,7 +34,7 @@
         <Button
             android:id="@+id/takeTestButton"
             android:background="@drawable/simple_button"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="70dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"

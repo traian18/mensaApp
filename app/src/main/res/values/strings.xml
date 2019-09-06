@@ -7,99 +7,114 @@
     <string name="about_mensa_romania">About Mensa Romania</string>
     <string name="what_does_iq_mean">What Does IQ Mean</string>
     <string name="about_iq_test">About IQ Test</string>
-    <string name="about_mensa_internationl">About Mensa Internationl</string>
+    <string name="about_mensa_internationl">About Mensa International</string>
     <string name="take_free_sample_iq_test">Take Free Sample IQ Test</string>
     <string name="title_activity_about_mensa_international">AboutMensaInternational</string>
 
-    <!--    About Mensa International Name-->
+
+    <!--    About Mensa Romania     -->
+    <string name="mensa_romania_text1">
+        "   Mensa Romania, registered as a Romanian legal entity affiliated with Mensa International, under the name Mens Mensis Mensa Association, is the organization of people with IQ that places them among the most intelligent 2% of the population.
+        \n\n The objectives of MENSA:\n\n"
+
+        "- Identifying and cultivating intelligence for the benefit of humanity\n\n"
+        "- Encouraging the research of nature, characteristics and use of intelligence
+offering an intellectual and social climate that stimulates its members\n\n"
+
+        "- Proof of a high IQ is done following a standardized test, administered by a Mensa proctor, in accordance with the rules of the Organization.\n\n"
+        "Mensa Romania regularly organizes testing sessions in the big cities, to which all those who want to become members or confirm their intelligence are invited. The standardized tests used by Mensa Romania are calibrated for candidates over 11 years old.\n\n"
+    </string>
+
+    <!--    What does IQ mean       -->
+    <string name="what_is_iq_1">
+        " What does IQ Mean\n\n"
+        " The IQ (Intelligence Quotient) is a form of quantification of human intelligence. There are several types of intelligence: logical-mathematical, visual-spatial, verbal-linguistic, interpersonal (emotional). The one that can be measured by IQ tests refers especially to mental agility, to the ability and speed to understand, to the ease of reasoning. By the nature of the method of determination, we can say that this is the closest to logical-mathematical intelligence.\n\n"
+        " Intelligence is often confused with the wisdom, knowledge, memory capacity or other abilities of the human mind. This confusion, but also the multitude of types of intelligence, make the definition of this concept strongly influenced by the context in which it is used. The coefficient of intelligence measurable through tests is the one regarding the cognitive ability of the person, the speed of understanding and deduction.\n\n"
+        " There are several IQ determination standards in the world. There are also different scales of measurement. Given the wide range used in the determination, the absolute value of an IQ is relevant only if the instrument used in the test is taken into account. In the same person, the score may differ depending on the method used. For example, the maximum score that can be obtained in a Stanford-Binet test is 160, and in the Cattell tests a maximum score of 161 or 183 can be obtained, depending on the variant.\n\n"
+    </string>
+
+    <string name="what_is_iq_2">
+        "   For an IQ score to be easier to interpret, the relative (percentage) result is preferable to the absolute score, expressed in points.\n\n"
+        "   For this reason, Mensa International has established as a single admission criterion a score that places the candidate in the percentage of 2% of the most intelligent people on the planet.\n\n"
+        "   Mensa Romania uses standardized tests, developed by Mensa International. The questions are "culture fair", calibrated to test the ability to make rational judgments only by using pictures and diagrams. These tests do not use the candidate's verbal (expressive) skills and have been developed especially for people whose mother tongue is not English.\n\n"
+    </string>
+
+    <!--    About Iq Test           -->
+    <string name="about_iq_test1">
+        "   The desire to study and measure human intelligence is old since the world. Centuries in a row, progress in the field of intelligence research has been ensured by the efforts of great thinkers - starting with Plato and Aristotle, then continuing for centuries with Toma d'Aquino, Blaise Pascal, Adam Smith, Immanuel Kant, Charles Darwin, etc. - to define, to standardize and formalize a concept, to bring intelligence among the characteristics that can be investigated methodically.\n\n"
+        "   Once the definition of the measurement parameter was clarified, the mathematical appearance appeared on the scene. Because, however remarkable the theoretical progress had been, the scientific community still failed to create that.\n\n"
+        "   "Intelligence meter", the practical method by which the value of the parameter in question can be measured. Despite the continuous completion and refinement of the theoretical aspects, the practical part was suffering. In the absence of adequate tools, everything was limited to the intuitive use of behavioral observation. An empirical method, accessible only to those with life experience and ability to understand the human nature.\n\n"
+        "   So, in the help of philosophers and psychologists (a discipline that was just detaching itself from philosophy and trying to pave its own way) the people of the figures jumped. They needed to treat intelligence as a measurable parameter.\n\n"
+    </string>
+
+    <string name="about_iq_test2">
+        "   The British scientist Sir Francis Galton opened the way in 1874, conducting the first standardized test of intelligence measurement. His research was based on the medical knowledge of the time, so the erudite nobleman had as a starting point a number of hypotheses that we considered at least extravagant today. He assumed, for example, that a person's intelligence is correlated with race, skull size, muscle conformation, etc. He also assumed that the education of the person and the occupation of the parents would be decisive for the level of intelligence.\n\n"
+        "   Today we can smile in the face of such naivety, but in his time, Galton was an ambitious and successful practitioner of radiography of human intelligence. The paternity of psychometrics is disputed by several scholars, but Galton's contribution was indisputable and decisive: it opened the way to the systematic study of intelligence by developing a rigorous assessment tool.\n\n"
+        "   Three decades later, the French psychologist Alfred Binet, another remarkable pioneer in the field, developed and published his first intelligence test based on language skills. Together with his countrymen, the psychologist Theodore Simon, Binet created a test to identify the delay by comparing the psychological age of the subject with his mental age. With the use of the large-scale test in schools and hospitals, Binet realized that quantitative research was limited and that a more complex instrument was needed, which would also conduct qualitative intelligence research.\n\n"
+        "   This step was taken a few years later by American psychologist Lewis Terman of Stanford University. Terman took the Binet test, improved it and adapted it. So he attached that component to qualitatively probe intelligence, the result being the famous Stanford-Binet intelligence scale.\n\n"
+        "   In the same period we can place the birth of the term IQ (Intelligenzquotient), invented by the German psychologist Wilhelm Stern and used in the book "Psychological Methods for Testing Intelligence", published in 1912.\n\n"
+    </string>
+
+    <string name="about_iq_test3">
+        "   Like many other research activities, the study of intelligence took a turn when it was considered attractive by the Army. The time coordinates of the first boom in IQ testing are the First World War and the US Army (who wanted to optimize their recruitment process).\n\n"
+        "   Marketing took the second important step, placing the psychological research where it was located, in the avant-garde area of ​​science. Psychology became such a good tone for the American public, and the transformation of the discipline into the star of the social sciences also attracted serious funding, which contributed decisively to the development.\n\n"
+        "   The Second World War revives the interest of the US Army for IQ testing and brings David Wechsler, the famous author of homonymous tests, to the forefront. Wechsler completes the necessary Stanford-Binet test battery (focused on verbal skills) and develops intellect research in the non-verbal area. Wechsler is even today the most popular IQ test method in the United States.\n\n"
+        "   The post-war era is marked by the contribution of another great American psychologist: Raymond Cattell, who refined the concept of intelligence, stating the existence of two forms: fluid intelligence (ability to solve problems using thinking) and crystallized intelligence (ability to solve problems using education). and experience). In the field of psychometrics, Cattell's contribution was also exceptional: he developed the first "culture-fair" IQ test, which succeeded in minimizing the influence of cultural baggage and linguistic knowledge in determining the intelligence coefficient.\n\n"
+    </string>
+
+    <string name="about_iq_test4">
+        "   Research on IQ determination has grown exponentially in recent decades. The old tests were revised and supplemented, developed and customized by age segments and types of intelligence investigated, and the effect was a real explosion of standardized methods for measuring IQ. The tests continue to serve the initial purpose, the diagnosis of mental problems, but the company has continued to find countless other uses: school and professional counseling, staff recruitment, etc.\n\n"
+        "   The most used IQ testing methods are:\n\n"
+        "   \n"
+        "   Wechsler Adult Intelligence Scale \n\n"
+        "   \n"
+        "   Wechsler Intelligence Scale for Children \n\n"
+        "   \n"
+        "   Stanford – Binet Intelligence Scales \n\n"
+        "   \n"
+        "   Raven's Progressive Matrices \n\n"
+        "   \n"
+        "   Cattell Culture Fair III \n\n"
+        "   \n"
+        "   Reynolds Intellectual Assessment Scales \n\n"
+        "   \n"
+        "   Woodcock – Johnson III Tests of Cognitive Abilities \n\n"
+        "   \n"
+        "   Kaufman Adolescent and Adult Intelligence Test \n\n"
+        "   \n"
+        "   Kaufman Assessment Battery for Children II \n\n"
+    </string>
+
+    <!--    Mensa International     -->
+
+    <string name="mensa_international1">
+        "   Mensa, the “high IQ society”, celebrates on October 1, 2016 its 70th anniversary. The organization currently has over 133,000 members in 100 countries around the world and groups people with an IQ placed in the first 2% of the population. The environment offered by Mensa is one of intellectual challenge, but also of fun, while facilitating participation in a variety of social and cultural activities. According to the statute, Mensa is an organization without ideological, philosophical, political or religious affiliation. \n\n"
+        "   Was once upon a time… \n\n\"
+        "   \n\n\"
+        "   The Mensa story began in the 1940s. The idea of the three founders - Roland Berrill, lawyer; Dr. Lance Ware, a scientist and lawyer, and Sir Cyril Burt, a psychology professor - was to create an organization for intelligent people, the only requirement for membership being a high IQ. The first booklet was published on October 1, 1946, in Oxford, England - and this document marks the official establishment of Mensa. Throughout its 70-year history, Mensa has undergone fundamental changes and has become a vibrant international community, shaped by the diversity of its members. \n\n"
+    </string>
+
+    <string name="mensa_international2">
+        "   Key moments of transformation and development \n\n\"
+        "   \n\n\"
+        "   The name "Mensa" comes from the Latin word "mass" and is one of the first words taught in Latin courses; refers to the round table, where all are equal; "Mensa" also alludes to the expression "mens sana in corpore sana" (healthy mind in healthy body). Initially, Mensa was thought of as an "aristocratic" organization, with a limited number of members, to avoid publicity and to represent an advisory council for the Government, offering intelligent and objective advice. In 1953, with the appointment of Victor Serebriakoff as secretary, a new era began, characterized by development and expansion. Serebriakoff's idea was to make Mensa a forum for expressing and discussing opinions; he also stated that Mensa, as an organization, should have no political, ideological, religious or national affiliation and should not favor any race or social class. \n\n"
+    </string>
+
+    <string name="mensa_international3">
+        "   Datorită comunicării active și deschiderii către societate, numărul membrilor a crescut rapid în a doua parte a anilor 1950. 1960 a fost un punct important în istoria Mensa, căci a marcat începutul internaționalizării organizației. În 1966, Mensa SUA a devenit – și a rămas – cea mai mare organizație națională. Principiile și structura Mensa International au fost redactate, acestea având ca obiectiv principal oferirea de ajutor la înființarea și sprijinirea funcționării organizațiilor Mensa naționale, fără a se amesteca în activitățile acestora. Organizațiile Mensa naționale sunt, prin urmare, independente în cea mai mare parte, dar activitățile lor trebuie să se supună Constituției Mensa și regulamentelor Mensa International, așa cum au fost votate de Consiliul Director Internațional. Constituția Mensa International a fost formulată în 1964. Tot atunci au fost organizate și primele alegeri internaționale. \n\n\"
+        "   \n\n\"
+        "   Due to active communication and openness to society, the number of members increased rapidly in the second half of the 1950s. 1960 was an important point in the history of Mensa, as it marked the beginning of the internationalization of the organization. In 1966, the US Mensa became - and remains - the largest national organization. The principles and structure of Mensa International were drafted, with the main objective being to provide assistance in setting up and supporting the functioning of national Mensa organizations, without interfering in their activities. National Mensa organizations are therefore largely independent, but their activities must be subject to the Mensa Constitution and Mensa International regulations, as voted by the International Governing Board. The Mensa International constitution was formulated in 1964. At that time, the first international elections were organized. \n\n\"
+        "   \n\n\"
+        "   The committee is headed by an Executive Committee consisting of five elected officials, all of whom are volunteers - no member receives material compensation for his work. Mensa International is currently run by Bibiána Balanyi (member of Mensa Hungary since 2010), the first President to come from a "small" national organization. She is also the youngest person in this position. \n\n\"
+        "   \n\n\"
+        "   Există organizații Mensa active în peste 40 de țări, pe fiecare continent, cu excepția Antarcticii – iar lista este în continuă creștere. Comparativ cu anul 2006, când Mensa împlinea 60 de ani, numărul membrilor a crescut cu circa 30.000 – o creștere de 27% într-un deceniu. \n\n\"
+        "   \n\n\"
+        "   Mensa Romania was established in 1991 and is a full member in Mensa International. After a troubled history, with leaps in development followed by long periods of stagnation, Mensa Romania stabilized its evolution in 2009 and entered a constant upward trend. Although it is still among the small national organizations, with just over 700 members, Mensa Romania has a very high growth rate, managing to double the number of members in the last 4 years. \n\n\"
+    </string>
+
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
-
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
-
-        "Bold, graphic, intentional.\n\n"
-
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
     </string>
 
     <string name="test_instructions">
@@ -118,7 +133,6 @@
 
     <string name="test_one_number_of_questions">24</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="initial_question_number">1/24</string>
     <string name="counter_default_time">TIME REMAINING: 10:00</string>

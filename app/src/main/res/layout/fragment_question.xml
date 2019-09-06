@@ -14,6 +14,10 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:text="A"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/simple_button"
+        android:padding="16dp"
         app:layout_constraintEnd_toStartOf="@+id/SelectBButton"
         app:layout_constraintTop_toTopOf="@+id/SelectBButton" />
 
@@ -23,6 +27,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="B"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/simple_button"
+        android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/questionImageView" />
@@ -33,6 +41,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="C"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/simple_button"
+        android:padding="16dp"
         app:layout_constraintStart_toEndOf="@+id/SelectBButton"
         app:layout_constraintTop_toTopOf="@+id/SelectBButton" />
 
@@ -42,6 +54,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="D"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/simple_button"
+        android:padding="16dp"
         app:layout_constraintEnd_toStartOf="@+id/SelectBButton"
         app:layout_constraintTop_toBottomOf="@+id/SelectAButton" />
 
@@ -51,6 +67,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="E"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/simple_button"
+        android:padding="16dp"
         app:layout_constraintStart_toEndOf="@+id/SelectBButton"
         app:layout_constraintTop_toBottomOf="@+id/SelectCButton" />
 
