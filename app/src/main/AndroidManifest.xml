@@ -27,7 +27,7 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".AboutMensaInternational"
+            android:name=".MensaPrinciples"
             android:label="@string/title_activity_about_mensa_international"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"/>

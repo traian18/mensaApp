@@ -56,7 +56,7 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
 
             @Override
             public void onFinish() {
-                mCounterTextView.setText("to late");
+                mCounterTextView.setText("Time is up");
             }
         }.start();
     }
@@ -98,11 +98,11 @@ public class TestActivity extends AppCompatActivity implements TestInstructionFr
     @Override
     public void finishTest() {
         ResultFragment resultFragment = new ResultFragment();
-        Bundle arguments = new Bundle();
+    Bundle arguments = new Bundle();
         arguments.putString("ANSWERS", numberOfCorrectAnswers.toString());
         resultFragment.setArguments(arguments);
-        ft = getSupportFragmentManager().beginTransaction();
+    ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.fragmentContainer, resultFragment);
         ft.commit();
-    }
+}
 }

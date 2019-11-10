@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.mensaapp.R;
 import com.example.mensaapp.TestActivity;
@@ -100,8 +99,6 @@ public class QuestionFragment extends Fragment {
     }
 
     private void checkAnswer(String answer) {
-        Toast.makeText(getContext(), "Answer: " + answer + " Correct Answer = " + mAnswerList[questionCounter], Toast.LENGTH_SHORT).show();
-
         if (answer.equals(mAnswerList[questionCounter])) {
             ((TestActivity) getActivity()).incrementCorrectScore();
         }

@@ -1,17 +1,17 @@
 package com.example.mensaapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button mAboutMensaRomania;
+    private Button mAboutMensa;
     private Button mWhatIsIq;
-    private Button mAboutIqTest;
-    private Button mAboutMensaInternational;
+
+    private Button mMensaPrinciples;
     private Button mTakeFreeTest;
 
 
@@ -20,17 +20,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mAboutMensaInternational = findViewById(R.id.AboutMensaInternationalButton);
+        mMensaPrinciples = findViewById(R.id.mensaPrinciplesButton);
         mWhatIsIq = findViewById(R.id.WhatIsIQButton);
-        mAboutIqTest = findViewById(R.id.AboutIQTestButton);
-        mAboutMensaRomania = findViewById(R.id.AboutMensaRomaniaButton);
+        mAboutMensa = findViewById(R.id.AboutMensaButton);
         mTakeFreeTest = findViewById(R.id.TakeFreeTestButton);
 
 
-        mAboutMensaInternational.setOnClickListener(new View.OnClickListener() {
+        mMensaPrinciples.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), AboutMensaInternational.class);
+                Intent intent = new Intent(getApplicationContext(), MensaPrinciples.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mAboutMensaRomania.setOnClickListener(new View.OnClickListener() {
+        mAboutMensa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), AboutMensaRomania.class);
@@ -52,13 +51,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mAboutIqTest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), AboutIqTest.class);
-                startActivity(intent);
-            }
-        });
 
         mTakeFreeTest.setOnClickListener(new View.OnClickListener() {
             @Override

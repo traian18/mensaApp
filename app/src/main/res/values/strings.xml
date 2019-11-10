@@ -4,39 +4,98 @@
     <string name="logo">Logo</string>
 
     <!--    Activities names-->
-    <string name="about_mensa_romania">About Mensa Romania</string>
+    <string name="about_mensa_romania">About Mensa</string>
     <string name="what_does_iq_mean">What Does IQ Mean</string>
     <string name="about_iq_test">About IQ Test</string>
-    <string name="about_mensa_internationl">About Mensa International</string>
+    <string name="mensa_principles">Mensa Principles</string>
     <string name="take_free_sample_iq_test">Take Free Sample IQ Test</string>
     <string name="title_activity_about_mensa_international">AboutMensaInternational</string>
 
 
     <!--    About Mensa Romania     -->
-    <string name="mensa_romania_text1">
-        "   Mensa Romania, registered as a Romanian legal entity affiliated with Mensa International, under the name Mens Mensis Mensa Association, is the organization of people with IQ that places them among the most intelligent 2% of the population.
-        \n\n The objectives of MENSA:\n\n"
+    <string name="about_mensa_text_1">
+        "      Mensa was founded in England in 1946 by Roland Berrill, a barrister, and Dr. Lance Ware, a scientist and lawyer. They had the idea of forming a society for bright people, the only qualification for membership of which was a high IQ. The original aims were, as they are today, to create a society that is non-political and free from all racial or religious distinctions. The society welcomes people from every walk of life whose IQ is in the top 2% of the population, with the objective of enjoying each other's company and participating in a wide range of social and cultural activities.\n\n"
 
-        "- Identifying and cultivating intelligence for the benefit of humanity\n\n"
-        "- Encouraging the research of nature, characteristics and use of intelligence
-offering an intellectual and social climate that stimulates its members\n\n"
-
-        "- Proof of a high IQ is done following a standardized test, administered by a Mensa proctor, in accordance with the rules of the Organization.\n\n"
-        "Mensa Romania regularly organizes testing sessions in the big cities, to which all those who want to become members or confirm their intelligence are invited. The standardized tests used by Mensa Romania are calibrated for candidates over 11 years old.\n\n"
     </string>
+
+    <string name="about_mensa_text_2">
+        "      Mensa has three stated purposes: to identify and foster human intelligence for the benefit of humanity, to encourage research in the nature, characteristics and uses of intelligence, and to promote stimulating intellectual and social opportunities for its members.\n\n"
+
+    </string>
+
+    <string name="about_mensa_text_3">
+        "      Today there are more than 140,000 Mensans in 100 countries throughout the world. There are active Mensa organizations in almost 50 countries, and on every continent except Antarctica. Membership numbers are also available for specific National Groups.\n\n"
+    </string>
+
+    <string name="about_mensa_text_4">
+        "      There is simply no one prevailing characteristic of Mensa members other than high IQ. There are Mensans for whom Mensa provides a sense of family, and others for whom it is a casual social activity. There have been many marriages made in Mensa, but for many people, it is simply a stimulating opportunity for the mind. Most Mensans have a good sense of humor, and they like to talk. And, usually, they have a lot to say.\n\n"
+        "      Mensans have ranged in age from 2 to more than 100, but most are between 20 and 60. In education they range from preschoolers to high school dropouts to people with multiple doctorates. There are Mensans on welfare and Mensans who are millionaires. As far as occupations, the range is staggering. Mensa has professors and truck drivers, scientists and firefighters, computer programmers and farmers, artists, military people, musicians, diplomats, manual workers, police officers, glassblowers—the diverse list goes on and on. There are famous Mensans and prize-winning Mensans, but there are many whose names you wouldn't know.\n\n"
+    </string>
+
+    <string name="about_mensa_text_5">
+        "      The word "Mensa" means "table" in Latin. Mensa is a round-table society, where race, color, creed, national origin, age, politics, educational or social background are irrelevant.\n\n"
+    </string>
+
+    <string name="about_mensa_text_6">
+        "      Mensa takes no stand on politics, religion or social issues. Mensa has members from so many different countries and cultures with differing points of view that for Mensa to espouse a particular point of view would go against its role as a forum for all points of view. Of course, individual Mensa members often have strong opinions—and several of them. It is said that in a room with 12 Mensans you will find at least 13 differing opinions on any given subject!\n\n"
+    </string>
+
+    <string name="about_mensa_text_7">
+        "      Membership in Mensa is open to persons who have attained a score within the upper two percent of the general population on an approved intelligence test that has been properly administered and supervised. There is no other qualification for initial membership eligibility.\n\n"
+
+        "      The term "IQ score" is widely used but poorly defined. There are a large number of tests with different scales. The result on one test of 132 can be the same as a score 148 on another test. Some intelligence tests don't use IQ scores at all. Mensa has set a percentile as cutoff to avoid this confusion. Candidates for membership of Mensa must achieve a score at or above the 98th percentile on a standard test of intelligence (a score that is greater than that achieved by 98 percent of the general population taking the test).\n\n"
+
+        "      Generally, there are two ways to prove that you qualify for Mensa: either take a test administered by Mensa, or submit a qualifying test score from another approved test. There are a large number of intelligence tests that are "approved". More information on whether a test you have taken is approved, as well as information on the procedure for taking the Mensa test, can be obtained from the nearest Mensa office. Beware - there are no on-line tests that can be used for admission to Mensa.  Feel free to contact Mensa for specific details about eligibility.\n\n"
+
+        "      Mensa has no other eligibility requirements other than IQ testing. However, many tests are not valid for people under the age of 16. You should contact the nearest Mensa office for more information.\n\n"
+    </string>
+
+    <string name="about_mensa_text_8">
+        "      Contact the testing service that administered the test to you requesting that they send you a report showing your score. Include as much information as you can about yourself and regarding when and where you were tested. If you can't give an exact answer, an approximation is better than nothing. Many testing services charge a fee for sending reports; you should give the service a call before writing them.\n\n"
+
+        "      If your school did IQ testing, write to the school you attended, and ask for a CERTIFIED copy of your score. It must include your birth date, the name of the test, and a clearly defined number, i.e., IQ, or percentile rank nationally. Mensa does not accept achievement tests. The school seal must be stamped on the report.\n\n"
+
+        "      For psychologist/agency testing, have the report sent on professional letterhead, with the psychologist's or agency's license or registration number. Mensa accepts tests given only by those people qualified to do testing privately in the area in which the examiner resides. Date of test, name of test, and full score must be given, and the report must be signed.\n\n"
+
+        "      Any signature-guaranteed or notarized copy of any of the reports will be accepted, other non-verifiable copies may be rejected.\n\n"
+
+    </string>
+
+    <string name="about_mensa_text_9">
+        "      Mensa is a non-political High-IQ Society for bright people. Mensa is a round-table society ("Mensa" means "table" in Latin), where race, color, creed, national origin, age, politics, educational or social background are irrelevant. There is just one criterion for eligibility: an IQ equal to or greater than the 98th percentile on an internationally-standardised IQ test. Theoretically, one person in fifty is eligible to join. Mensa provides a forum for intellectual exchange among its members. These include the exchange of ideas through lectures, discussions, journals, special-interest groups, and local, regional, national and international gatherings; the investigations of members' opinions and attitudes; and, assistance to researchers, inside and outside Mensa, in projects dealing with intelligence or Mensa. Mensa also provides a more informal service. Its members serve as a critical but intelligent audience for new ideas propagated by other members.\n\n"
+    </string>
+
+    <string name="about_mensa_text_10">
+        "      There are members in more than 100 countries around the world, and across all seven continents. Their ages are from 3 to 103. They are from all walks of life and educational levels; they include janitors, doctors, scientists, artists, actors, carpenters, chemists, politicians, farmers, computer programmers, authors, police officers, hermits, firemen, musicians, the long-term unemployed, educators, millionaires, firefighters, bankers and bus drivers. Members tend to be curious and have widely varying interests. They are quick to grasp concepts. They are often humorous, talkative, quirky, but the only characteristic they share across the board is a high IQ.\n\n"
+    </string>
+
 
     <!--    What does IQ mean       -->
     <string name="what_is_iq_1">
         " What does IQ Mean\n\n"
-        " The IQ (Intelligence Quotient) is a form of quantification of human intelligence. There are several types of intelligence: logical-mathematical, visual-spatial, verbal-linguistic, interpersonal (emotional). The one that can be measured by IQ tests refers especially to mental agility, to the ability and speed to understand, to the ease of reasoning. By the nature of the method of determination, we can say that this is the closest to logical-mathematical intelligence.\n\n"
-        " Intelligence is often confused with the wisdom, knowledge, memory capacity or other abilities of the human mind. This confusion, but also the multitude of types of intelligence, make the definition of this concept strongly influenced by the context in which it is used. The coefficient of intelligence measurable through tests is the one regarding the cognitive ability of the person, the speed of understanding and deduction.\n\n"
-        " There are several IQ determination standards in the world. There are also different scales of measurement. Given the wide range used in the determination, the absolute value of an IQ is relevant only if the instrument used in the test is taken into account. In the same person, the score may differ depending on the method used. For example, the maximum score that can be obtained in a Stanford-Binet test is 160, and in the Cattell tests a maximum score of 161 or 183 can be obtained, depending on the variant.\n\n"
+        "IQ is a type of standard score that indicates how far above, or how far below, his/her peer group an individual stands in mental ability. The peer group score is an IQ of 100; this is obtained by applying the same test to huge numbers of people from all socio-economic strata of society, and taking the average.\n\n"
+        "The term "IQ" was coined by the psychologist William Stern for the German term Intelligenzquotient in 1912. At that time, IQ was represented as a ratio of mental age to chronological age x 100. So, if an individual of 10 years of age has a mental age of 10, the IQ will be 100. However, if the mental age is greater than the chronological age, eg, 12 rather than 10, the IQ will be 120. Similarly, if a mental age is lower than the chronological age, the IQ will be lower than 100.\n\n"
+        "When current IQ tests were developed, the average score of the norming sample was defined as IQ 100 and standard deviations (SD) up or down are defined as, for example, 16 or 24 IQ points greater or less than 100. Mensa accepts individuals who score in the top 2%, ie, two SDs or more above the average. This would include those who score at or above 132 (Stanford-Binet) or 148 (Cattell). Mensa accepts many different tests, as long as they have been standardised and normed and are accepted by professional psychologists’ associations.\n\n"
     </string>
 
     <string name="what_is_iq_2">
         "   For an IQ score to be easier to interpret, the relative (percentage) result is preferable to the absolute score, expressed in points.\n\n"
         "   For this reason, Mensa International has established as a single admission criterion a score that places the candidate in the percentage of 2% of the most intelligent people on the planet.\n\n"
         "   Mensa Romania uses standardized tests, developed by Mensa International. The questions are "culture fair", calibrated to test the ability to make rational judgments only by using pictures and diagrams. These tests do not use the candidate's verbal (expressive) skills and have been developed especially for people whose mother tongue is not English.\n\n"
+
+        "Sir Francis Galton was the first scientist who attempted to devise a modern test of intelligence in 1884. In his open laboratory people could have the acuity of their vision and hearing measured, as well as their reaction time to different stimuli. The world’s first mental test, created by James McKeen Cattell in 1890, consisted of similar tasks, almost all of them measuring the speed and accuracy of perception. It soon turned out, however, that such tasks cannot predict academic achievement, and therefore are probably imperfect measures of anything we would call intelligence.\n\n"
+        "The first modern-day IQ test was created by Alfred Binet in 1905. Unlike Galton, he was not inspired by scientific inquiry. Rather, he had very practical implications in mind: to be able to identify children who cannot keep up with their peers in the educational system that had recently been made compulsory for all. Binet’s test consisted of knowledge questions as well as ones requiring simple reasoning. Besides test items Binet also needed an external criterion of validity, which he found in age. Indeed, even though there is substantial variation in the pace of development, older children are by and large more cognitively advanced than younger ones.\n\n"
+        "Binet, therefore, identified the mean age at which children, on average, are capable of solving each item, and categorized items accordingly. This way he could estimate a children’s position relative to their peers: if a child, for instance, is capable of solving items that are, on average, only solved by children who are two years older, then this child is two years ahead in mental development.\n\n"
+        "Subsequently, a more accurate approach was proposed by William Stern, who suggested that instead of subtracting real age from the age estimated from test performance, the latter (termed as ‘mental age’) should be divided by the former. Hence the famous ‘intelligence quotient’ or IQ was born and defined as (mental age) / (chronological age). It indeed turned out that such a calculation is more in line with other estimates of mental performance. For instance, an 8-year old performing on the level of a 6-year old arrives at the same estimate under Binet’s system as a 6-year old performing on the level of a 4-year old. Yet in Stern’s system the 6-year old gets a lower score as 4/6 \u003C 6/8.  Experience shows that when they both turn 10, the now 8-year old is more likely to outperform the now 6-year old in cognitive tasks, hence Stern’s method proved to be more valid.\n\n"
+        "It was the US where IQ testing became a real success story after Lewis Terman revised Binet’s test, created a much more appropriate norm than the original, and published it as the Stanford-Binet test. He was also keen to multiply the result with 100, so the final equation for is IQ is (mental age) / (chronological age) X 100. Indeed, a 130 IQ sounds much sexier than 1.3.\n\n"
+        "This method, however, only works well in children. If a child’s parents are told that their 6-year old already has the mental capabilities of an average 9-year old and therefore her IQ is 150 they will over the Moon. But if the child’s grandfather is told that even though he is only 60 his cognitive abilities are on par with an average 90-year old he might not take it as a compliment. Obviously, the quotient only works as long as Binet’s original criterion is functional, i.e. as long as older age in general means better abilities. In other words, the method is inappropriate when mental development does not take place any more.\n\n"
+        "Donald Wechsler solved the problem of calculating adult IQ by simply comparing performance to the distribution of test scores, which is a normal distribution. In his system the IQ of those whose score equals the mean of the age group is 100. This way the IQ of the average adult is 100, just like the IQ of the average child in the original system. He used the statistical properties of the normal distribution to assign IQ scores based on the extent of contemporaries one outscores. For instance, someone whose score is one standard deviation (a statistical concept that describes average dispersion) above the mean and who thus outperforms 86% of contemporaries has an IQ of 115. And so on, see the figure below.\n\n"
+    </string>
+    <string name="what_is_iq_3">
+        "So why is it called IQ, a quotient, if nothing gets divided? Well, the reason simply is that the concept of IQ had become too popular by then to be discorded. In adults the intelligence quotient is not really a quotient at all; it is an indication of how well one performs on mental tests compared to one’s contemporaries.\n\n"
+        Besides extending the concept of IQ to adults another major step in the development of intelligence testing was the creation of ‘group tests’, i.e. tests can be scored in an algorithmic fashion with an answer key, and which therefore can be administered in groups instead of having to be individually administered by qualified psychologists. The first such test was created for the US army, but IQ-tests eventually spread from education and military settings to the workplace and beyond. Soon IQ-tests became one of psychology’s greatest popular successes and still are to this day.\n\n"
+
+
     </string>
 
     <!--    About Iq Test           -->
@@ -85,6 +144,20 @@ offering an intellectual and social climate that stimulates its members\n\n"
         "   Kaufman Assessment Battery for Children II \n\n"
     </string>
 
+    <string name="mensa_principles_1">
+        "   Mensa International has a Constitution which sets out the purpose and infrastructure of Mensa. There are three aims:\n\n"
+    </string>
+
+    <string name="mensa_principles_2">
+        "   - to identify and foster human intelligence for the benefit of humanity;\n\n"
+        "   - to encourage research into the nature, characteristics, and uses of intelligence; \n\n"
+        "   - to provide a stimulating intellectual and social environment for its members. \n\n"
+    </string>
+
+    <string name="mensa_principles_3">
+        "   Each country has its own national Mensa constitution, which is based on Mensa's Minimum Constitutional Requirements, the document that lays out the basic requirements for all national Mensas, although national legal requirements take precedence, of course. The Mensa Constitution is the over-arching document that governs all national Mensa groups.\n\n"
+    </string>
+
     <!--    Mensa International     -->
 
     <string name="mensa_international1">
@@ -122,10 +195,117 @@ offering an intellectual and social climate that stimulates its members\n\n"
         "    The test consists of 24 exercises that must be solved in 10 minutes. Each exercise is a 3 x 3 square with images where the last image is not available.Your task is to determine which image is missing.\n\n"
         "   When you want to start the test, press the "Begin the test!" Button. You have 10 minutes available! After these 10 minutes, the test will stop automatically and the results will be calculated with the answers completed by then! After you tick an answer, the test will automatically display the next question.\n\n"
         "   Note: The test is performed by Etienne Forsström (Mensa Sweden) and used with his permission"
-
-
-
     </string>
+
+<!--    Result Descriptions-->
+
+    <string name="iq_75_description_text">
+        "   The result corresponds to a percentage score of 5, ie 5% of the population has an IQ of less than 75.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of Mensa being eligible is low.\n\n"
+    </string>
+
+    <string name="iq_80_description_text">
+        "   The result corresponds to a percentage score of 9, meaning 9% of the population has an IQ of less than 80.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_85_description_text">
+        "   The result corresponds to a percentage score of 16, meaning 16% of the population has an IQ of less than 85.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_89_description_text">
+        "   The result corresponds to a percentage score of 23, meaning 23% of the population has an IQ of less than 89.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_93_description_text">
+        "   The result corresponds to a percentage score of 32, meaning 32% of the population has an IQ of less than 93.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_96_description_text">
+        "   The result corresponds to a percentage score of 42, meaning 42% of the population has an IQ of less than 96.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_100_description_text">
+        "   The result corresponds to a percentage score of 50, meaning 50% of the population has an IQ of less than 100.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_103_description_text">
+        "   The result corresponds to a percentage score of 58, meaning 58% of the population has an IQ of less than 103.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_107_description_text">
+        "   The result corresponds to a percentage score of 69, meaning 69% of the population has an IQ of less than 107.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_112_description_text">
+        "   The result corresponds to a percentage score of 78, ie 78% of the population has an IQ of less than 112.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_116_description_text">
+        "   The result corresponds to a percentage of 85, ie 85% of the population has an IQ of less than 116.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_119_description_text">
+        "   The result corresponds to a percentage score of 90, meaning 90% of the population has an IQ of less than 119.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+    <string name="iq_122_description_text">
+        "   The result corresponds to a percentage score of 93, meaning 93% of the population has an IQ of less than 122.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score). Even if you are on the edge, there is a decent chance of becoming eligible for Mensa.\n\n"
+        "   Sign up for the Mensa supervised test to test your potential!\n\n"
+    </string>
+
+    <string name="iq_126_description_text">
+        "   Congratulations! This is the maximum result that can be obtained with this test! Only 4% of the population has an IQ of 126 or more.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score). Even if you are on the edge, there is a decent chance of becoming eligible for Mensa.\n\n"
+        "   Sign up for the Mensa supervised test to test your potential!\n\n"
+    </string>
+
+    <string name="iq_70_description_text">
+        "   Less than 5% of the population achieves this result. Your IQ is below 75.\n\n"
+
+        "   To join Mensa you need an IQ of 131 or more, which is achieved by the first 2% of the population (98 percent score).\n\n"
+        "   The probability of being eligible for Mensa is low.\n\n"
+    </string>
+
+
+
     <string name="action_settings">Settings</string>
     <string name="title_activity_what_is_iq">WhatIsIqActivity</string>
     <string name="title_activity_about_mensa_romania">AboutMensaRomania</string>
@@ -136,4 +316,17 @@ offering an intellectual and social climate that stimulates its members\n\n"
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="initial_question_number">1/24</string>
     <string name="counter_default_time">TIME REMAINING: 10:00</string>
+    <string name="the_measurement_of_intelligence">The measurement of intelligence</string>
+    <string name="what_is_mensa">What is Mensa</string>
+    <string name="what_are_mensa_s_goals">What are Mensa\'s goals?</string>
+    <string name="how_many_members_does_mensa_have">How many members does Mensa have?</string>
+    <string name="what_kind_of_people_are_members_of_mensa">What kind of people are members of Mensa?</string>
+    <string name="what_opinions_does_mensa_have">What opinions does Mensa have?</string>
+    <string name="what_does_mensa_mean">What does \'Mensa\' mean?</string>
+    <string name="how_do_i_qualify_for_mensa">How do I qualify for Mensa?</string>
+    <string name="how_do_i_get_proof_of_my_previous_test_scores">How do I get proof of my previous test scores?</string>
+    <string name="the_society">The Society</string>
+    <string name="our_members">Our Members</string>
+    <string name="result">Result</string>
+    <string name="based_in_the_test_your_iq_is_estimated_to_be">Based in the test your IQ is estimated to be:</string>
 </resources>
